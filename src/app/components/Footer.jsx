@@ -1,5 +1,8 @@
 import React from "react";
 
+
+
+
 const Footer = () => {
   return (
     <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white">
@@ -7,6 +10,7 @@ const Footer = () => {
         <span className="text-xl md:text-2xl font-bold">{"<K>"}</span>
         <p className="text-slate-600">© 2024 Karthikeyan K | All rights reserved.</p>
       </div>
+    
     </footer>
   );
 };

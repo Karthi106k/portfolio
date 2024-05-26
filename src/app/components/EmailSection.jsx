@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import CalendlyIcon from "../../../public/calendly.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -56,13 +57,18 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
-        <div className="socials flex flex-row gap-2">
+        <div className="socials flex flex-row gap-3 items-center">
           <Link target="_blank" href="https://www.github.com/karthi106k">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
           <Link target="_blank" href="https://www.linkedin.com/karthi106k">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
+
+          <Link target="_blank" href="https://meet.karthi.live/">
+            <Image width={40} src={CalendlyIcon} alt="Calendly Icon" />
+          </Link>
+          
         </div>
       </div>
       <div>
